@@ -1,5 +1,5 @@
 {
-    "name": "huyufan/swoole-test",
+    "name": "huyufan/swoole",
     "description": "about php phpinfo",
     "type": "library",
     "require": {
