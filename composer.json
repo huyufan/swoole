@@ -1,7 +1,23 @@
 {
     "name": "huyufan/swoole-test",
-    "description": "about swoole example",
+    "description": "about php phpinfo",
     "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "php": ">=5.4"
+    },
+	"autoload": {
+    "psr-4": {
+        "phpinfo\\": "src/"
+    }
+    },
+	"autoload-dev": {
+    "psr-4": {
+        "phpinfo\\": "src/"
+    }
+    },
     "license": "MIT",
     "authors": [
         {
@@ -9,21 +25,5 @@
             "email": "flat_boy@163.com"
         }
     ],
-	"autoload": {
-    "psr-4": {
-        "phpinfo\\": "src/"
-    }
-},
-	"autoload-dev": {
-    "psr-4": {
-        "phpinfo\\": "src/"
-    }
-},		
-    "minimum-stability": "dev",
-     "require": {
-        "php": ">=5.4"
-    },
-    "require-dev": {
-        "php": ">=5.4",
-    },
+    "minimum-stability": "dev"
 }
