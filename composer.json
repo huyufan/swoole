@@ -1,0 +1,19 @@
+{
+    "name": "huyufan/swoole-test",
+    "description": "about swoole example",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huyufan",
+            "email": "flat_boy@163.com"
+        }
+    ],
+	"autoload": {
+    "psr-4": {
+        "phpinfo\\": "src/"
+    }
+},
+    "minimum-stability": "dev",
+    "require": {}
+}
