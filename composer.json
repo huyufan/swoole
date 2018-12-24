@@ -14,6 +14,16 @@
         "phpinfo\\": "src/"
     }
 },
+	"autoload-dev": {
+    "psr-4": {
+        "phpinfo\\": "src/"
+    }
+},		
     "minimum-stability": "dev",
-    "require": {}
+     "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "php": ">=5.4",
+    },
 }
